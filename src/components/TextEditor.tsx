@@ -14,7 +14,7 @@ const TextEditor = ({ onPick, text }) => {
   useEffect(() => {
     if (canvas) {
       const canvasEl = canvas.current
-      const width = window.innerWidth
+      const width = 375
       const height = width
 
       let el = new fabric.Canvas('canvas')
