@@ -9,7 +9,7 @@ import { DataContext } from './DataProvider';
 const TextEditor = ({ onPick, text }) => {
   const [value, setValue] = useState(text)
   const canvas = useRef(null)
-  const { state } = useContext(DataContext)
+  const { state, dispatch } = useContext(DataContext)
 
   useEffect(() => {
     if (canvas) {
@@ -54,7 +54,8 @@ const TextEditor = ({ onPick, text }) => {
         console.log('text:changed', e.target.text)
         setValue(e.target.text)
         const img = el.toDataURL('png')
-        onPick(img)
+        dispatch({ type: 'SET_PREVIEW', preview: img })
+        onPick(e.target.text)
       })
     }
   })

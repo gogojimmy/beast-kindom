@@ -10287,6 +10287,11 @@ react-fast-compare@^2.0.2:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
+react-fastclick-alt@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-fastclick-alt/-/react-fastclick-alt-2.0.1.tgz#36e0ff18876bae2ce34c8709d9982a67be025b4b"
+  integrity sha512-ShAMARyX5wbu2jpthBPKtVkVaO8vj7/vODXMMUfW+xwwsHNOuFMp9FSMv82ewAD1AhXqmxdLHgBGCtkQJ/qYQg==
+
 react-helmet@^5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-5.2.1.tgz#16a7192fdd09951f8e0fe22ffccbf9bb3e591ffa"

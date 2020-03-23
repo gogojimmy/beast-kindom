@@ -32,6 +32,7 @@
     "@types/react-dom": "^16.9.5",
     "babel-plugin-styled-components": "^1.10.7",
     "prettier": "^1.19.1",
+    "react-fastclick-alt": "^2.0.1",
     "styled-components": "^5.0.1"
   },
   "keywords": [

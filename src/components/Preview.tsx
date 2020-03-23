@@ -16,7 +16,7 @@ const Preview = () => {
           <Typography gutterBottom variant="h5" component="h2">
             你的專屬{state.style}
           </Typography>
-          <img src={state.text} />
+          <img src={state.preview} />
           <Typography variant="body2" color="textSecondary" component="p">
             材質：{state.material}
           </Typography>
